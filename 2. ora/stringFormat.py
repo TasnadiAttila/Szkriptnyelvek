@@ -37,11 +37,19 @@ def both_ends(s):
 # Tipp: s.replace(stra, strb) egy olyan sztringet ad vissza,
 # melyben az stra összes előfordulása ki van cserélve strb-re.
 def fix_start(s):
-    first = s[0]
-    l = len(s)
-    for i in s[1:]:
-        if i == first:
-            return s.replace(i,"*")
+   w = "asdaacvb"
+js = ""
+e = w[0]
+for i in w[1:]:
+    js+=(i)
+w = ""
+for t in js:
+    if t == e:
+        q = js.replace(e,'*')
+        w = ""
+        w+=e
+        w+=q
+print(w)
 
 
 
