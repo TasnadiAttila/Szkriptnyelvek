@@ -1,11 +1,11 @@
 def main():
     print("\n" + "Feladat 1: ")
     #feladat1
-    l = ['auto', 'villamos', 'metro'] 
+    l = ['auto', 'villamos', 'metro']
     l2 = [i.upper()+"!" for i in l]
     print(l2)
 
-    print("\n" + "Feladat 2: ") 
+    print("\n" + "Feladat 2: ")
     #feladat2
     l = [i.capitalize() for i in ['aladar', 'bela', 'cecil'] ]
     print(l)
@@ -26,7 +26,7 @@ def main():
     print(l)
 
     print("\n" + "Feladat 6: ")
-    #feladat6 
+    #feladat6
     l = [int(i) for i in "1234567"]
     print(l)
 
@@ -44,7 +44,7 @@ def main():
 
     print("\n" + "Feladat 9: ")
     #feladat9
-    l = 'The quick brown fox jumps over the lazy dog' 
+    l = 'The quick brown fox jumps over the lazy dog'
     l2 = [(i,len(i)) for i in l.split(" ")]
     print(l2)
 
@@ -60,8 +60,21 @@ def main():
 
     print("\n" + "Feladat: 12")
     #feladat12
-    l = [i for i in l4 if i[-1] == ]
+    l = [i for i in l4 if i%10 == 4]
     print(l)
+
+    print("\n" + "Feladat: 13")
+    #feladat13
+    print("".join([chr(i).upper() for i in range(ord('a'),ord('z')+1)]))
+
+    print("\n" + "Feladat: 14")
+    #feladat14
+    l = [i.strip() for i in [' apple ', ' banana ', ' kiwi']]
+    print(l)
+
+    print("\n" + "Feladat: 15")
+    #feladat15
+    print("".join([str(i) for i in [1, 0, 1, 1, 0, 1, 0, 0]]))
 
 
 if __name__ == "__main__":
