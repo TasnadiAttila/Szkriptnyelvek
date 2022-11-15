@@ -1,0 +1,6 @@
+Innen másold ki a feladatban megadott objektumokat!
+
+b) ["Adam,21", "Bela,23", "Cecil,21"]
+c) ["Adam", "5", "2b", "11"]
+d) {3: "három", 5: "öt", 7: "hét"}
+f) {(1, 2): "start", (2, 2): "akadály", (2, 1): "akadály", (0, 2): "cél"}
